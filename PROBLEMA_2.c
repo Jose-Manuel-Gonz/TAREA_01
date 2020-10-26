@@ -13,13 +13,9 @@ int main(){
 	
 	if((x%2)==0){
 		printf("\nEl numero %d es par\n", x);
-		printf("\nFIN DEL PROGRAMA");
-
 	}
 	else {
 		printf("\nEl numero %d es impar\n", x);
-		printf("\nFIN DEL PROGRAMA");
-
 	}
-	
+	printf("\nFIN DEL PROGRAMA");
 }
