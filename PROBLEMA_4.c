@@ -25,7 +25,7 @@ int main(){
 	
 	if((((b*b)-(4*a*c)))==0){
 		printf("\nSolo hay una solucion:");
-		printf("\nX=%.2f",(((-b)+(sqrt(((b*b)-(4*a*c)))))/(2*a)));	
+		printf("\nX=%.2f",((-b)/(2*a)));	
 	}
 	
 	if((((b*b)-(4*a*c)))>0){
