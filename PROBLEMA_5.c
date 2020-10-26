@@ -19,7 +19,6 @@ int main(){
 	
 	if(r==0){
 		printf("\nERROR\n");
-		printf("\nFIN DEL PROGRAMA");
 	}
 	
 	if(r<0){
