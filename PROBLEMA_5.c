@@ -15,18 +15,15 @@ int main(){
 	if(r>0){
 		printf("\nEl area es: %.2f cm^2\n",pi*r*r);
 		printf("\nEl perimetro es: %.2f cm\n",2*pi*r);
-		printf("\nFIN DEL PROGRAMA");
 	}
 	
 	if(r==0){
 		printf("\nERROR\n");
 		printf("\nFIN DEL PROGRAMA");
-
 	}
 	
 	if(r<0){
 		printf("\nNO EXISTEN RADIOS NEGATIVOS\n");
-		printf("\nFIN DEL PROGRAMA");
-
 	}
+	printf("\nFIN DEL PROGRAMA");
 }
