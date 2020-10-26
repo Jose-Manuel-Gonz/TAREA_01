@@ -21,21 +21,18 @@ int main(){
 	if((((b*b)-(4*a*c)))<0){
 		printf("\nERROR\n");
 		printf("\nNO HAY RAICES NEGATIVAS\n");
-		printf("\nFIN DEL PROGRAMA");
 	}
 	
 	if((((b*b)-(4*a*c)))==0){
 		printf("\nSolo hay una solucion:");
-		printf("\nX=%.2f",(((-b)+(sqrt(((b*b)-(4*a*c)))))/(2*a)));
-		printf("\nFIN DEL PROGRAMA");		
+		printf("\nX=%.2f",(((-b)+(sqrt(((b*b)-(4*a*c)))))/(2*a)));	
 	}
 	
 	if((((b*b)-(4*a*c)))>0){
 		printf("\nLas soluciones son:\n");
 		printf("\nX1=%.2f\n",(((-b)+(sqrt(((b*b)-(4*a*c)))))/(2*a)));
-		printf("\nX2=%.2f\n",(((-b)-(sqrt(((b*b)-(4*a*c)))))/(2*a)));
-		printf("\nFIN DEL PROGRAMA");		
+		printf("\nX2=%.2f\n",(((-b)-(sqrt(((b*b)-(4*a*c)))))/(2*a)));	
 	}
-
+	printf("\nFIN DEL PROGRAMA");
 	
 }
