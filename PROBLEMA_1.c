@@ -14,18 +14,14 @@ int main(){
 	
 	if(a>b){
 		printf("\nEl numero mayor es %.2f\n", a);
-		printf("\nFIN DEL PROGRAMA");
 	}
 	
 	if(b>a){
 		printf("\nEl numero mayor es %.2f", b);
-		printf("\nFIN DEL PROGRAMA");
-
 	}
 	
 	if(a==b){
-		printf("\nLas variables son iguales");
-		printf("\nFIN DEL PROGRAMA");
-
+		printf("\nLas variables son iguales")
 	}
+	printf("\nFIN DEL PROGRAMA");
 }
