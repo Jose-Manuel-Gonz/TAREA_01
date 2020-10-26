@@ -16,13 +16,11 @@ int main(){
 	
 	if(b!=0){
 		printf("\nEl resultado de la division es: %.2f\n",a/b);
-		printf("\nFIN DEL PROGRAMA");
 	}
 	
 	else{
 		printf("\nERROR\n");
 		printf("\nNO EXISTE LA DIVISION ENTRE 0\n");
-		printf("\nFIN DEL PROGRAMA");
-
 	}
+	printf("\nFIN DEL PROGRAMA");
 }
